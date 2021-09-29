@@ -28,6 +28,7 @@ namespace Places
     public void Configure(IApplicationBuilder app)
     {
       app.UseRouting();
+      app.UseDeveloperExceptionPage();
 
       app.UseEndpoints(routes =>
       {
